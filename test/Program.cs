@@ -10,7 +10,7 @@ switch (s)
     case "+":OperationPlus(A,B); break;
     case "-": OperationMinus(A, B); break;
     case "*": OperationMulty(A, B); break;
-    case "/": break;
+    case "/": OperationDivision(A, B); break;
 }
 
 void OperationPlus(int a,int b)
@@ -27,5 +27,9 @@ void OperationMulty(int a, int b)
     Console.WriteLine(A * B);
 }
 
+void OperationDivision(int a, int b)
+{
+    Console.WriteLine(A*1.0 / B);
+}
 
 
