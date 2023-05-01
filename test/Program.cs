@@ -7,8 +7,13 @@ switch (s)
 {
     case "A": A = int.Parse(Console.ReadLine());break;
     case "B": B = int.Parse(Console.ReadLine()); break;
-    case "+":break;
+    case "+":OperationPlus(A, B); break;
     case "-": break;
     case "*": break;
     case "/": break;
+}
+
+void OperationPlus(int a,int b)
+{
+    Console.WriteLine(A+B);
 }
